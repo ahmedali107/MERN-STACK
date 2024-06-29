@@ -1,0 +1,9 @@
+body{
+    display: inline-block;
+    background-color: aquamarine;
+}
+div{
+    /* display: flex; */
+    display: inline;
+    display: grid;
+}

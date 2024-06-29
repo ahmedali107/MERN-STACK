@@ -1,0 +1,15 @@
+/* p{
+    background-color: aquamarine
+}
+a{
+    background-color: burlywood;
+    cursor: pointer;
+}
+div{
+    background-color: rgb(215, 234, 0);
+} */
+
+
+div{
+    display: flex;
+}

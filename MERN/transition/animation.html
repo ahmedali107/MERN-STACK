@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            background-color: #0fcf5cb6;
+            height: 80vh;
+            width: 30vw;
+
+        }
+        .box{
+          width: 34px;
+          height: 45px;
+          background-color: aqua;
+        /*  animation-name: ahmed;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-out;
+          animation-delay: 2s;
+          animation-play-state: paused;*/
+          animation: ahmed 3s ease-in-out 2s 1 , ali 3s ease-in-out 2s 1;
+
+        }
+
+        @keyframes ahmed{
+            from{
+                background-color: red;
+
+            }
+            to{
+                background-color: yellow;
+                transform: translateX(1000px);
+
+            }
+
+        }
+
+        @keyframes ali{
+            0%{
+                transform: rotate(100deg);
+
+            }
+            20%{
+                transform: rotate(200deg);
+
+            }
+            50%{
+                transform: rotate(220deg);
+
+            }
+            80%{
+                transform: rotate(300deg);
+
+            }
+            100%{
+                transform: rotate(310deg);
+
+            }
+        }
+
+    </style>
+     
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Ahmedali@10
+        </div>
+    </div>
+    
+</body>
+</html>

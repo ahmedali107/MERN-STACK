@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+           /* element selector*/
+            div{
+                /*background-color: red;*/
+            }
+           /* class selector*/
+            .red{
+                background-color: red;
+            }
+            /*id selector*/
+            #green{
+                background-color: green;
+            }
+            /*child selector*/
+            div >p{
+                color: blue;
+                background-color: red;
+            }
+
+            /*Descendant selector*/
+            div  p{
+                color: blue;
+                background-color: red;
+            }
+            /*universal  selectors*/ 
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            /*Pseudo selector*/
+            a:visited{
+                color: aqua;
+            }
+            a:link{
+                color: green;
+            }
+            a:active{
+                background-color: rgb(194, 54, 54);
+            }
+            a:hover{
+                background-color: yellow;
+            }
+            p:first-child{
+                background-color: aquamarine;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <p>i am one</p>
+            <p>i am second</p>
+        </div>
+        <div class="red">
+            am sanjana
+            <article>
+            <p>am sanjana balagar wanted to become modeler</p>
+            </article>
+        </div>
+        <div id="green">
+            ahmed
+        </div>
+        <a target="_blank" href="https://www.google.com"> go to google</a>
+        <br>
+        <a target="_blank" href="https://www.youtube.com"> go to whatsapp</a>
+    </body>
+</html>

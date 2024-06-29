@@ -1,0 +1,10 @@
+.video-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+.video{
+    flex: 1;
+    margin-right: 10px;
+}

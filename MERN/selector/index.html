@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>css selectors</title>
+        <style>
+            /*.box:first-child{
+                background-color: brown;
+            }
+            .box::first-line{
+                color: rgb(66, 29, 29);
+            }*
+            .boxes *{
+                border: 2px solid black;
+                color: blue;
+
+            }
+
+           p,a,.box, [data-color="primary"]{
+                padding-top: 45px;
+            }
+            .box:nth-child(odd){
+                background-color: blue;
+            }*/
+            .box:nth-child(1){
+               
+            }
+            .boxes::after{
+                content: "KLES BCA HUBLI";
+                color: rgb(252, 140, 4);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            ::selection{
+                background-color: rgb(204, 135, 135);
+                color: rgb(72, 41, 1);
+            }
+            .box::first-letter{
+                color: purple;
+            }
+            input::placeholder{
+                color: rgb(197, 147, 147);
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="boxes">
+            <div data-color="primary" class="box">i am first box</div>
+            <div class="box">Hey i am a box</div>
+            <div class="box">Hey i am a box</div>
+            <input type="text" placeholder="Type your name">
+        </div>
+
+    </body>
+</html>
